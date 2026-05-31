@@ -20,6 +20,7 @@ const signup = async (req, res) => {
                 success: true
             })
     } catch (err) {
+        console.error("Signup Error:", err);
         res.status(500)
             .json({
                 message: "Internal server error",
@@ -58,6 +59,7 @@ const login = async (req, res) => {
                 name: user.name
             })
     } catch (err) {
+        console.error("Login Error:", err);
         res.status(500)
             .json({
                 message: "Internal server errror",
