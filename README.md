@@ -1,1 +1,1 @@
-# ConteraAI
+An autonomous multi-agent AI platform orchestrating specialized agents (Trends, SEO, Content Writer, Image Generator, and Social Media) to automate end-to-end digital content production and direct Meta API publishing from a single topic prompt.
